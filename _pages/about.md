@@ -9,7 +9,7 @@ redirect_from:
 
 About Me
 ======
-I am currently a Research Assistant in Prof. Vijay Gupta's Lab at Purdue University, where I investigate the application and analysis of conformal prediction in multi-view cooperative perception, trajectory optimization, and domain adaptation.
+I am currently a Graduate Research Assistant in Prof. Vijay Gupta's Lab at Purdue University, where I investigate the application and analysis of conformal prediction in multi-view cooperative perception, trajectory optimization, and domain adaptation.
 
 My research interests encompass:
 
