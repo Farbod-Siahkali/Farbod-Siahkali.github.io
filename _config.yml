@@ -23,10 +23,10 @@ author:
   avatar: "profile.png" # Update with the filename of your profile picture in the /assets/images/ directory
   name: "Farbod Siahkali"
   pronouns: "" # Add if applicable, e.g., "he/him"
-  bio: "Master's and PhD candidate in Electrical Engineering at Purdue University, focusing on conformal prediction, control theory, machine learning, and optimization."
+  bio: "PhD student in Electrical Engineering at Purdue University, focusing on conformal prediction, control theory, machine learning, and optimization."
   location: "West Lafayette, IN, USA"
   employer: "Purdue University"
-  uri: "https://farbod-siahkali.github.io/AboutMe/"
+  #uri: "https://farbod-siahkali.github.io/AboutMe/"
   email: "siahkali@purdue.edu"
   # Academic websites
   googlescholar: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=-99KSTsAAAAJ"
@@ -36,7 +36,7 @@ author:
   github: "Farbod-Siahkali"
   # Social media
   linkedin: "Farbod-Siahkali"
-  twitter: "" # Add your Twitter username if applicable
+  #twitter: "" # Add your Twitter username if applicable
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -106,7 +106,6 @@ social:
     - "https://linkedin.com/in/Farbod-Siahkali/"
     - "https://github.com/Farbod-Siahkali"
     - "https://scholar.google.com/citations?view_op=list_works&hl=en&user=-99KSTsAAAAJ"
-    - "https://farbod-siahkali.github.io/AboutMe/"
 
 # Analytics
 analytics:
