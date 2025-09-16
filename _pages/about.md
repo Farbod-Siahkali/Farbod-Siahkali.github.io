@@ -9,14 +9,6 @@ redirect_from:
 
 About Me
 ======
-I am currently a Graduate Research Assistant in Prof. Vijay Gupta's Lab at Purdue University, where I investigate the application and analysis of conformal prediction in multi-view cooperative perception, trajectory optimization, and domain adaptation.
+I am Farbod Siahkali, a Ph.D. candidate in Electrical Engineering, specializing in Automatic Control at Purdue University. I earned my Bachelor’s degree in Electrical Engineering (Control Engineering Branch) from the University of Tehran. Currently, I serve as a Graduate Research Assistant in Prof. Vijay Gupta’s Lab at Purdue, where my research focuses on applying conformal prediction to multi-view cooperative perception, trajectory optimization, and domain adaptation.
 
-My research interests encompass:
-
-- Conformal Prediction
-
-- Control Theory
-
-- Machine Learning
-
-- Optimization
+My academic interests center on the convergence of conformal prediction, control theory, machine learning, and optimization. For more details on my work, please visit my Google Scholar profile or contact me via email.
