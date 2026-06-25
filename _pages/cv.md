@@ -38,6 +38,12 @@ redirect_from:
   * International Conference on Electrical, Computer, and Energy Technologies (ICECET 2024)
 
 ## Publications
+* **Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target Identification**, IEEE Control Systems Letters, 2026
+  * Developed an active-sensing extension of deferred-decision trajectory optimization for robust target identification under sensing uncertainty and resource constraints.
+* **Conformal prediction-based multi-sensor classification**, Neurocomputing, 2026
+  * Studied conformal prediction methods for reliable multi-sensor classification with uncertainty-aware decision support.
+* **Coverage Guarantees for Pseudo-Calibrated Conformal Prediction under Distribution Shift**, arXiv, 2026
+  * Provided coverage guarantees for pseudo-calibrated conformal prediction under bounded distribution shift.
 * **Deep Reinforcement Learning for Epidemic Control of a Networked SIS Model**, IEEE Conference on Control Technology and Applications (CCTA) 2025, Sep. 2025
   * Proposed a novel approach to reduce infection spread using deep deterministic policy gradient (DDPG).
 * **Towards Opinion Shaping: A Deep Reinforcement Learning Approach in Bot-User Interactions**, arXiv, Sep. 2024
