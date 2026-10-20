@@ -23,7 +23,7 @@ author:
   avatar: "profile.png" # Update with the filename of your profile picture in the /assets/images/ directory
   name: "Farbod Siahkali"
   pronouns: "" # Add if applicable, e.g., "he/him"
-  bio: "PhD student in Electrical Engineering at Purdue University, focusing on conformal prediction, control theory, machine learning, and optimization."
+  bio: "Ph.D. student in Electrical Engineering at Purdue University. Reliable perception, planning under uncertainty, and safe learning."
   location: "West Lafayette, IN, USA"
   employer: "Purdue University"
   #uri: "https://farbod-siahkali.github.io/AboutMe/"

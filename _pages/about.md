@@ -2,37 +2,46 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 About Me
 ======
-I am Farbod Siahkali, a Ph.D. student in Electrical Engineering, specializing in Automatic Control at Purdue University. I earned my Bachelor’s degree in Electrical Engineering (Control Engineering Branch) from the University of Tehran. Currently, I serve as a Graduate Research Assistant in Prof. Vijay Gupta’s Lab at Purdue, where my research focuses on applying conformal prediction to multi-view cooperative perception, trajectory optimization, and domain adaptation.
+I am Farbod Siahkali, a Ph.D. student in Electrical Engineering in the Automatic Control area at Purdue University. I am a Graduate Research Assistant in Prof. Vijay Gupta’s lab, where I develop reliable perception and planning methods for autonomous systems. Before joining Purdue, I earned my B.S. in Electrical Engineering (Control) from the University of Tehran.
 
-My academic interests center on the convergence of conformal prediction, control theory, machine learning, and optimization. For more details on my work, please visit my Google Scholar profile or contact me via email.
+My research connects **machine learning, uncertainty quantification, and control**. I am interested in how autonomous systems can combine uncertain observations, decide when to commit to a plan, and learn while respecting safety constraints. My current work spans conformal prediction, multi-sensor fusion, domain adaptation, trajectory optimization, and safe reinforcement learning.
 
-# Publications
-My scholarly contributions include:
+You can find my papers on [Google Scholar](https://scholar.google.com/citations?user=-99KSTsAAAAJ&hl=en), browse my [CV](/cv/), or reach me at [siahkali@purdue.edu](mailto:siahkali@purdue.edu).
 
-- **Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target Identification** (2026, published in IEEE Control Systems Letters, available on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11563843))  
-  Develops an active-sensing extension of deferred-decision trajectory optimization for robust target identification under sensing uncertainty and resource constraints.
+## Research
 
-- **Conformal prediction-based multi-sensor classification** (2026, published in Neurocomputing, article 133182, available on [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0925231226005795))  
-  Studies conformal prediction methods for reliable multi-sensor classification with uncertainty-aware decision support.
+- **Reliable multi-sensor perception:** I study conformal prediction and late fusion for dependent sensor outputs, with the goal of producing informative prediction sets at a desired coverage level.
+- **Planning under uncertainty:** I develop active-sensing and deferred-decision trajectory optimization for target identification and interception, including multi-agent systems with moving candidates.
+- **Learning under distribution shift:** I study pseudo-calibration and coverage guarantees when calibration and deployment distributions differ.
+- **Safe reinforcement learning:** I develop policy-gradient methods with online parameter estimation and control barrier functions for evolving safety constraints.
 
-- **Coverage Guarantees for Pseudo-Calibrated Conformal Prediction under Distribution Shift** (2026, available on [arXiv](https://arxiv.org/abs/2602.14913))  
-  Provides coverage guarantees for pseudo-calibrated conformal prediction under bounded distribution shift.
+## Recent Updates
 
-- **Deep Reinforcement Learning for Epidemic Control of a Networked SIS Model** (September 2025, published in IEEE Conference on Control Technology and Applications (CCTA) 2025, available on [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11151322))  
-  Proposes a novel approach to reduce infection spread in a networked susceptible-infected-susceptible (SIS) model using deep deterministic policy gradient (DDPG).
+- **2026:** Our active-sensing and deferred-decision trajectory optimization paper is published in **IEEE Control Systems Letters**, with a **CDC 2026 presentation accepted**.
+- **2026:** Our paper on conformal prediction-based multi-sensor classification is published in **Neurocomputing**.
+- **2026:** I am serving as a research mentor in Purdue’s **ASPIRE REU** program.
 
-- **Towards Opinion Shaping: A Deep Reinforcement Learning Approach in Bot-User Interactions** (September 2024, available on [arXiv](https://arxiv.org/abs/2409.11426))  
-  Explores the impact of interference in social networks using deep reinforcement learning.
+[More updates](/Updates/)
 
-- **Image-Based and Partially Categorical Annotating Approach for Pedestrian Attribute Recognition** (July 2023, available on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4373086))  
-  Introduces the CA-Duke dataset and a two-step learning method with a novel Separation Index metric.
+## Publications & Manuscripts
 
-- **SIVD: Dataset of Iranian Vehicles for Real-Time Multi-Camera Video Tracking and Recognition** (December 2022, published in International Conference on Signal Processing and Intelligent Systems (ICSPIS) 2022, available on [IEEE Xplore](https://ieeexplore.ieee.org/document/10043932))  
-  Presents a new dataset with 29 classes and over 36,000 images for vehicle tracking and recognition.
+{% include research-publications.html brief=true %}
+
+[Research details and paper links](/publications/)
+
+## Background
+
+- **Ph.D. in Electrical Engineering**, Purdue University — expected May 2029.
+- **M.S. in Electrical Engineering**, Purdue University — expected December 2026.
+- **B.S. in Electrical Engineering (Control)**, University of Tehran — July 2023.
+
+My earlier research includes reinforcement learning for epidemic control and opinion shaping, as well as computer vision for detection, re-identification, attribute recognition, and multi-object tracking. I also review for Neurocomputing, IEEE Control Systems Letters, and IEEE CDC.
+
+[Full education, experience, teaching, and service](/cv/)
