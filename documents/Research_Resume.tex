@@ -1,0 +1,109 @@
+% Farbod Siahkali | One-page research internship resume
+% Single-column reading order, plain text contacts, Unicode text mapping.
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=0.50in]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+  % Avoid ligatures and kerning gaps that can split keywords in PDF parsers.
+  \setmainfont{texgyretermes-regular.otf}[
+    BoldFont=texgyretermes-bold.otf,
+    ItalicFont=texgyretermes-italic.otf,
+    BoldItalicFont=texgyretermes-bolditalic.otf,
+    Ligatures=NoCommon,RawFeature=-kern]
+\fi
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+% pdfTeX needs explicit glyph mapping; XeTeX supplies Unicode mapping.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\definecolor{Accent}{RGB}{0,55,105}
+\hypersetup{pdftitle={Farbod Siahkali - Research Resume},pdfauthor={Farbod Siahkali}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\raggedright
+\titleformat{\section}{\large\bfseries\color{Accent}}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+\setlist[itemize]{leftmargin=13pt,topsep=2pt,itemsep=1pt,parsep=0pt,partopsep=0pt}
+\newcommand{\degree}[3]{\textbf{#1}, #2\hfill #3\par}
+\newcommand{\role}[3]{\textbf{#1} | #2\hfill #3\par}
+\newcommand{\paper}[3]{\item \textbf{\href{#3}{#1}}. #2.}
+\newcommand{\manuscript}[2]{\item \textbf{#1}. #2.}
+
+\begin{document}
+\fontsize{10.5}{12.3}\selectfont
+\begin{center}
+{\fontsize{23}{25}\selectfont\bfseries Farbod Siahkali}\\[3pt]
+West Lafayette, IN | +1-765-532-7185 | \href{mailto:siahkali@purdue.edu}{siahkali@purdue.edu}\\[2pt]
+\href{https://scholar.google.com/citations?user=-99KSTsAAAAJ\&hl=en}{Google Scholar} | \href{https://farbod-siahkali.github.io/}{farbod-siahkali.github.io} | \href{https://www.linkedin.com/in/farbod-siahkali/}{LinkedIn: farbod-siahkali}
+\end{center}
+\vspace{-6pt}
+Ph.D. researcher in machine learning and control developing reliable perception and planning for autonomous systems. Research spans conformal prediction, multi-sensor fusion, multi-agent trajectory optimization, and safe reinforcement learning.
+
+\section{Education}
+\degree{Purdue University}{Ph.D. in Electrical Engineering}{Expected May 2029}
+\degree{Purdue University}{M.S. in Electrical Engineering, GPA: 3.83}{Expected December 2026}
+\degree{University of Tehran}{B.S. in Electrical Engineering (Control), GPA: 3.92}{July 2023}
+
+\section{Publications \& Manuscripts}
+\begin{itemize}
+\paper{Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target Identification}
+{IEEE Control Systems Letters (L-CSS), 2026. CDC 2026 presentation accepted. First author}
+{https://doi.org/10.1109/LCSYS.2026.3703893}
+\paper{Conformal Prediction-Based Multi-Sensor Classification}
+{Neurocomputing, vol. 678, article 133182, 2026. First author}
+{https://doi.org/10.1016/j.neucom.2026.133182}
+\manuscript{Multi-Agent Deferred-Decision Trajectory Optimization with Anytime-Valid Target Retention for Moving Candidates}
+{IEEE Robotics and Automation Letters (RA-L), under review. First author}
+\paper{Coverage Guarantees for Pseudo-Calibrated Conformal Prediction under Distribution Shift}
+{IEEE Signal Processing Letters, under review, 2026. arXiv:2602.14913. First author}
+{https://arxiv.org/abs/2602.14913}
+\manuscript{Policy Gradient with Online Parameter Estimation and Evolving CBF Action Sets}
+{In preparation for submission to IEEE Control Systems Letters (L-CSS). First author}
+\paper{Deep Reinforcement Learning for Epidemic Control of a Networked SIS Model}
+{IEEE Conference on Control Technology and Applications (CCTA), 2025}
+{https://ieeexplore.ieee.org/document/11151322}
+\paper{Towards Opinion Shaping: A Deep Reinforcement Learning Approach in Bot-User Interactions}
+{arXiv:2409.11426, preprint, 2024. First author}
+{https://arxiv.org/abs/2409.11426}
+\paper{Image-Based and Partially Categorical Annotating Approach for Pedestrian Attribute Recognition}
+{SSRN, preprint, 2023}
+{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4373086}
+\paper{SIVD: Dataset of Iranian Vehicles for Real-Time Multi-Camera Video Tracking and Recognition}
+{8th Iranian Conference on Signal Processing and Intelligent Systems (ICSPIS), 2022. First author}
+{https://ieeexplore.ieee.org/document/10043932}
+\end{itemize}
+
+\section{Research Experience}
+\role{Graduate Research Assistant}{Purdue University, Prof. Vijay Gupta}{Aug 2024 -- Present}
+\begin{itemize}
+\item Reduced prediction-set size by \textbf{10--25\%} at fixed coverage using conformal late fusion for dependent sensor outputs on synthetic, CIFAR-10, CIFAR-100, and MELD benchmarks.
+\item Developed slack-inflated and source-tuned pseudo-calibration algorithms for domain adaptation on MNIST and CIFAR benchmarks. Derived coverage bounds using Wasserstein distance under label-conditional covariate shift.
+\item Developed single- and multi-agent DDTO for target identification and interception using mixed-integer conic optimization, conformal prediction, sequential candidate rejection, and receding-horizon planning.
+\item Developed barrier-continuation policy gradient (BCPG) for safe reinforcement learning with online parameter estimation and control barrier functions (CBFs). Evaluated adaptive cruise control and planar navigation.
+\end{itemize}
+\role{Research Assistant}{University of Tehran, Intelligent Networks Lab}{Oct 2023 -- Jul 2024}
+\begin{itemize}
+\item Implemented DDPG policies for networked epidemic control and budget-constrained opinion shaping.
+\end{itemize}
+\role{Research Assistant}{University of Tehran, Human \& Robot Interaction Lab}{May 2021 -- Oct 2022}
+\begin{itemize}
+\item Built PyTorch pipelines with YOLOv5 and OSNet for detection, re-identification, and multi-object tracking. Created CA-Duke labels for 32,000+ images and contributed to the 36,000+ image, 29-class SIVD dataset.
+\end{itemize}
+
+\section{Technical Skills}
+\textbf{Languages \& Tools:} Python, MATLAB, C, Git, Linux, LaTeX.\\
+\textbf{ML Libraries:} PyTorch, TensorFlow, NumPy, Pandas, SciPy, scikit-learn.\\
+\textbf{Methods:} Conformal prediction, uncertainty quantification, sensor fusion, Bayesian inference, domain adaptation, mixed-integer/conic optimization, trajectory planning, multi-agent systems, safe reinforcement learning, control barrier functions, computer vision.
+
+\section{Teaching, Service \& Honors}
+Purdue ASPIRE REU research mentor (2026). University of Tehran teaching assistant (2020--2023). Reviewer: Neurocomputing, IEEE L-CSS, IEEE CDC. Best Undergraduate Project Award (2023).
+\end{document}

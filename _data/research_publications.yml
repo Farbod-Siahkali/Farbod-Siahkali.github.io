@@ -1,10 +1,15 @@
-# Publications and manuscript statuses from the October 2026 resume.
+# Verified public author lists; manuscript status follows the October 2026 resume.
 - title: "Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target Identification"
-  venue: "IEEE Control Systems Letters (L-CSS), 2026"
-  status: "Published. CDC 2026 presentation accepted."
+  venue: "IEEE Control Systems Letters (L-CSS), vol. 10, pp. 811–816, 2026"
+  status: "Published."
   first_author: true
   url: "https://doi.org/10.1109/LCSYS.2026.3703893"
   detail: "Develops an active-sensing extension of deferred-decision trajectory optimization for robust target identification under sensing uncertainty and resource constraints."
+  category: "published"
+  selected: true
+  authors: "Farbod Siahkali, Mengxue Hou, Vijay Gupta"
+  note: "CDC 2026 presentation accepted."
+  source: "https://arxiv.org/abs/2606.22277"
 
 - title: "Conformal Prediction-Based Multi-Sensor Classification"
   venue: "Neurocomputing, vol. 678, article 133182, 2026"
@@ -12,31 +17,47 @@
   first_author: true
   url: "https://doi.org/10.1016/j.neucom.2026.133182"
   detail: "Studies conformal late fusion for dependent sensors. Experiments on synthetic data, CIFAR-10, CIFAR-100, and MELD reduce prediction-set size by 10–25% at fixed coverage."
+  category: "published"
+  selected: true
+  authors: "Farbod Siahkali, Vijay Gupta"
+  source: "https://www.sciencedirect.com/science/article/pii/S0925231226005795"
 
 - title: "Multi-Agent Deferred-Decision Trajectory Optimization with Anytime-Valid Target Retention for Moving Candidates"
   venue: "IEEE Robotics and Automation Letters (RA-L)"
   status: "Under review."
   first_author: true
   detail: "Combines mixed-integer conic optimization, conformal prediction, sequential candidate rejection, and receding-horizon planning for multi-agent target identification and interception with moving candidates."
+  category: "review"
+  selected: false
 
 - title: "Coverage Guarantees for Pseudo-Calibrated Conformal Prediction under Distribution Shift"
-  venue: "IEEE Signal Processing Letters, 2026; arXiv:2602.14913"
+  venue: "IEEE Signal Processing Letters"
   status: "Under review."
   first_author: true
   url: "https://arxiv.org/abs/2602.14913"
   detail: "Develops slack-inflated and source-tuned pseudo-calibration algorithms for domain adaptation, with Wasserstein-based coverage bounds under label-conditional covariate shift and experiments on MNIST and CIFAR benchmarks."
+  category: "review"
+  selected: true
+  authors: "Farbod Siahkali, Ashwin Verma, Vijay Gupta"
+  note: "Public preprint: arXiv:2602.14913 (2026)."
 
 - title: "Policy Gradient with Online Parameter Estimation and Evolving CBF Action Sets"
   venue: "IEEE Control Systems Letters (L-CSS)"
   status: "In preparation for submission."
   first_author: true
   detail: "Develops barrier-continuation policy gradient (BCPG) for safe reinforcement learning with online parameter estimation and control barrier functions (CBFs), evaluated in adaptive cruise control and planar navigation."
+  category: "preparation"
+  selected: false
 
 - title: "Deep Reinforcement Learning for Epidemic Control of a Networked SIS Model"
-  venue: "IEEE Conference on Control Technology and Applications (CCTA), 2025"
+  venue: "IEEE Conference on Control Technology and Applications (CCTA), pp. 145–150, 2025"
   status: "Published."
   url: "https://ieeexplore.ieee.org/document/11151322"
   detail: "Uses deep deterministic policy gradient (DDPG) to reduce infection spread in a networked susceptible-infected-susceptible (SIS) model."
+  category: "published"
+  selected: true
+  authors: "Saba Samadi, Farbod Siahkali, Philip E. Paré"
+  source: "https://www.proceedings.com/content/082/082262webtoc.pdf"
 
 - title: "Towards Opinion Shaping: A Deep Reinforcement Learning Approach in Bot-User Interactions"
   venue: "arXiv:2409.11426, 2024"
@@ -44,16 +65,27 @@
   first_author: true
   url: "https://arxiv.org/abs/2409.11426"
   detail: "Studies bot-user interactions and budget-constrained opinion shaping in social networks using deep reinforcement learning."
+  category: "preprint"
+  selected: false
+  authors: "Farbod Siahkali, Saba Samadi, Hamed Kebriaei"
 
 - title: "Image-Based and Partially Categorical Annotating Approach for Pedestrian Attribute Recognition"
-  venue: "SSRN, 2022"
+  venue: "SSRN, 2023"
   status: "Preprint."
   url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4373086"
   detail: "Introduces the CA-Duke dataset and a two-step learning method with a Separation Index metric. My related work included creating attribute labels for more than 32,000 images."
+  category: "preprint"
+  selected: false
+  authors: "Hossein Bodaghi, Farbod Siahkali, Shayan Samiee, Seraj Ghasemi, Mehdi Tale Masouleh, Ahmad Kalhor"
+  source: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4373086"
 
 - title: "SIVD: Dataset of Iranian Vehicles for Real-Time Multi-Camera Video Tracking and Recognition"
-  venue: "IEEE International Conference on Signal Processing and Intelligent Systems (ICSPIS), 2022"
+  venue: "2022 8th Iranian Conference on Signal Processing and Intelligent Systems (ICSPIS), pp. 1–7"
   status: "Published."
   first_author: true
   url: "https://ieeexplore.ieee.org/document/10043932"
   detail: "Introduces a dataset with over 36,000 images and 29 classes for real-time multi-camera vehicle tracking and recognition."
+  category: "published"
+  selected: false
+  authors: "Farbod Siahkali, Seyed Amirmahdi Alavi, Mehdi Tale Masouleh"
+  source: "https://github.com/Farbod-Siahkali/Iranian-Vehicle-Tracking-and-Recognition/blob/main/README.md"

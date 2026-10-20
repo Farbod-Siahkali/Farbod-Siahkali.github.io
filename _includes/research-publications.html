@@ -1,11 +1,22 @@
 <ul>
 {% for paper in site.data.research_publications %}
+{% assign show_paper = true %}
+{% if include.selected and paper.selected != true %}{% assign show_paper = false %}{% endif %}
+{% if include.category and paper.category != include.category %}{% assign show_paper = false %}{% endif %}
+{% if show_paper %}
+{% assign show_authors = false %}
+{% unless include.brief %}{% assign show_authors = true %}{% endunless %}
+{% if include.authors %}{% assign show_authors = true %}{% endif %}
   <li>
     <p>
       {% if paper.url %}<strong><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></strong>{% else %}<strong>{{ paper.title | escape }}</strong>{% endif %}<br>
-      {{ paper.venue | escape }}. {{ paper.status | escape }}{% if paper.first_author %} First author.{% endif %}
+      {% if show_authors and paper.authors %}{{ paper.authors | escape | replace: 'Farbod Siahkali', '<strong>Farbod Siahkali</strong>' }}.<br>{% endif %}
+      {% if paper.category == 'review' %}Under review at {{ paper.venue | escape }}.{% elsif paper.category == 'preparation' %}In preparation for submission to {{ paper.venue | escape }}.{% else %}{{ paper.venue | escape }}. {{ paper.status | escape }}{% endif %}
+      {% if paper.first_author %}{% unless show_authors and paper.authors %} First author.{% endunless %}{% endif %}
+      {% if paper.note %} {{ paper.note | escape }}{% endif %}
       {% unless include.brief %}<br>{{ paper.detail | escape }}{% endunless %}
     </p>
   </li>
+{% endif %}
 {% endfor %}
 </ul>
