@@ -1,0 +1,255 @@
+% Farbod Siahkali - Full Academic Curriculum Vitae
+% Structure and visual rhythm adapted from Vijay Gupta's academic CV.
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[letterpaper,top=0.68in,bottom=0.68in,left=1.88in,right=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{changepage}
+\usepackage{ragged2e}
+\usepackage{url}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\marginparwidth}{1.16in}
+\setlength{\marginparsep}{0.23in}
+\setlength{\marginparpush}{6pt}
+\reversemarginpar
+\raggedbottom
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhfoffset[L]{1.39in}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize Farbod Siahkali}
+\fancyfoot[R]{\footnotesize \thepage\ of \pageref*{LastPage}}
+\setlength{\footskip}{24pt}
+\urlstyle{same}
+\emergencystretch=1.5em
+\linespread{1.01}
+
+\hypersetup{
+  colorlinks=false,
+  pdfborder={0 0 0},
+  pdftitle={Curriculum Vitae - Farbod Siahkali},
+  pdfauthor={Farbod Siahkali}
+}
+
+\newcommand{\cvsection}[1]{%
+  \Needspace{4\baselineskip}%
+  \par\addvspace{11pt}%
+  \noindent\marginpar{\vspace{1pt}\RaggedRight\small\scshape #1}%
+  \ignorespaces
+}
+
+\newcommand{\cvsubsection}[1]{%
+  \Needspace{3\baselineskip}%
+  \par\addvspace{7pt}\noindent\textit{#1}\par\vspace{3pt}%
+}
+
+\newcommand{\datedentry}[4]{%
+  \Needspace{3\baselineskip}%
+  \noindent\begin{tabularx}{\linewidth}{@{}X >{\raggedleft\arraybackslash}p{1.55in}@{}}
+    \textbf{#1} & #2\\[-1pt]
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\par\vspace{3pt}%
+}
+
+\newcommand{\degreeentry}[5]{%
+  \Needspace{4\baselineskip}%
+  \noindent\begin{tabularx}{\linewidth}{@{}X >{\raggedleft\arraybackslash}p{1.55in}@{}}
+    \textbf{#1} & #2\\[-1pt]
+    #3 & #4\\[-1pt]
+    \multicolumn{2}{@{}p{\linewidth}@{}}{\textit{#5}}
+  \end{tabularx}\par\vspace{5pt}%
+}
+
+\newcommand{\researchtopic}[2]{%
+  \Needspace{8\baselineskip}%
+  \par\vspace{3pt}\noindent\textbf{#1} #2\par
+}
+
+\newcommand{\me}{\textbf{F. Siahkali}}
+
+\setlist[itemize]{leftmargin=1.25em,label=\textbullet,itemsep=2.2pt,topsep=2.2pt,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.62em,itemsep=3.6pt,topsep=2.2pt,parsep=0pt,partopsep=0pt}
+
+\begin{document}
+
+% Header spans the left section-label margin, following the reference CV.
+\begin{adjustwidth}{-1.39in}{0in}
+{\fontsize{23}{25}\selectfont Farbod Siahkali}\par
+\vspace{3pt}\hrule\vspace{7pt}
+\begin{tabularx}{\linewidth}{@{}X >{\raggedleft\arraybackslash}X@{}}
+Purdue University & Phone: +1-765-532-7185\\
+West Lafayette, IN, USA & \href{mailto:siahkali@purdue.edu}{siahkali@purdue.edu}\\
+Electrical Engineering - Automatic Control & \href{https://farbod-siahkali.github.io/}{farbod-siahkali.github.io}\\
+& \href{https://scholar.google.com/citations?hl=en\&user=-99KSTsAAAAJ}{Google Scholar} \; | \; \href{https://github.com/Farbod-Siahkali}{GitHub} \; | \; \href{https://www.linkedin.com/in/farbod-siahkali/}{LinkedIn}
+\end{tabularx}
+\end{adjustwidth}
+
+\cvsection{Summary}
+Ph.D. student in Electrical Engineering at Purdue University, specializing in automatic control and advised by Prof. Vijay Gupta. Research connects statistical learning, uncertainty quantification, optimization, and control to develop reliable perception and decision-making methods for autonomous systems. Current work spans conformal prediction, multi-sensor fusion, active sensing and multi-agent trajectory optimization, safe reinforcement learning, distribution shift, and geometry-aware prediction for structured responses. Publications include \textit{IEEE Control Systems Letters}, \textit{Neurocomputing}, and IEEE control conferences. Earlier work addressed reinforcement learning for networked systems and computer vision for pedestrian and vehicle recognition.
+
+\cvsection{Education}
+\degreeentry{Ph.D., Electrical Engineering (Automatic Control)}{Expected May 2029}
+{Purdue University}{West Lafayette, IN}
+{Aug. 2024 -- present; Graduate Research Advisor: Prof. Vijay Gupta; GPA: 3.83/4.00}
+
+\degreeentry{M.S., Electrical Engineering}{Expected December 2026}
+{Purdue University}{West Lafayette, IN}
+{Degree in progress}
+
+\degreeentry{B.S., Electrical Engineering (Control Engineering)}{July 2023}
+{University of Tehran}{Tehran, Iran}
+{Sep. 2019 -- July 2023; GPA: 18.36/20 (3.92/4.00)}
+
+\cvsection{Honors and\\Awards}
+\begin{itemize}
+  \item \textbf{Best Undergraduate Project Award}, Faculty of Electrical and Computer Engineering, University of Tehran, July 2023, for an undergraduate project on pedestrian attribute recognition.
+\end{itemize}
+
+\cvsection{Research and\\Experience}
+\datedentry{Graduate Research Assistant}{Aug. 2024 -- present}{Purdue University - Prof. Vijay Gupta's Lab}{West Lafayette, IN}
+Research focuses on reliable perception, learning, and planning under uncertainty, with particular emphasis on conformal prediction and control-oriented decision making.
+
+\researchtopic{Multi-agent DDTO with anytime-valid target retention.}{Developing a receding-horizon multi-agent interception framework for one unknown moving target among candidates with uncertain terminal locations. Integrates conformal terminal prediction, online conformal/e-process rejection, capacity-constrained assignment, and candidate-contingent DDTO. Derived anytime-valid target-retention and fixed-time terminal-coverage guarantees, together with a capture-failure bound for verified final-step plans. Evaluated against model-predictive, commitment, and fallback baselines, with closed-loop HoloOcean multi-vehicle demonstrations under model mismatch.}
+
+\researchtopic{Barrier-continuation policy gradient with learned CBF action sets.}{Developing safe reinforcement learning for uncertain dynamics with a control barrier function (CBF) action set as the direct support of the stochastic policy. Uses nested time-uniform confidence sets to certify support, frozen within episodes and expanded as uncertainty contracts. Analyzed time-uniform safety and convergence to stationary points of the oracle CBF objective through bounds on action-set and policy-gradient perturbations. Evaluated in adaptive cruise control and planar navigation.}
+
+\newpage
+\cvsection{Research and\\Experience\\(continued)}
+\researchtopic{Adaptive intrinsic--normal conformal prediction on estimated response manifolds.}{Developing conformal prediction for structured responses on an estimated low-dimensional manifold. Identified a support-mismatch failure where zero-thickness regions on the fitted manifold can lose response coverage despite small geometric error. Proposed adaptive intrinsic--normal conformal prediction with intrinsic/normal errors, contour selection, and fresh recalibration for exact finite-sample marginal coverage. Studied set convergence for a rank-minimal variant under manifold-reconstruction and nearest-neighbor Fr\'echet-regression assumptions. Benchmarked efficiency across manifold settings.}
+
+\researchtopic{Conformal prediction-based multi-sensor classification.}{Developed a conformal late-fusion framework for multi-view classification with statistically dependent sensor $p$-values, learning cross-sensor dependence rather than assuming independence. Established finite-sample marginal-coverage guarantees and expected prediction-set-size bounds, with variance-reduction analysis in a linear-classifier setting. Evaluated on synthetic data, CIFAR-10, CIFAR-100, and MELD, producing more efficient prediction sets at the target coverage level. Published in \textit{Neurocomputing} in 2026.}
+
+\researchtopic{Conformal prediction under distribution shift.}{Analyzed pseudo-calibration under bounded label-conditional covariate shift. Derived a target-coverage lower bound from source classifier loss and Wasserstein shift, then developed slack-inflated prediction sets and source-tuned pseudo-calibration that adapts label randomization to classifier uncertainty. Evaluated on MNIST, CIFAR-10, and CIFAR-100. Available as a 2026 arXiv manuscript and under review at \textit{IEEE Signal Processing Letters}.}
+
+\researchtopic{Active sensing and deferred-decision trajectory optimization.}{Extended Deferred-Decision Trajectory Optimization (DDTO) with trajectory-dependent information acquisition for identifying a true target while preserving reachability under resource constraints. Developed Bayesian and conformal candidate-set updates for distance-dependent sensing, derived a mixed-integer conic reformulation, and established recursive-feasibility, belief-concentration, and fixed-time coverage guarantees. Published in \textit{IEEE Control Systems Letters} in 2026 and accepted for presentation at IEEE CDC 2026.}
+
+\researchtopic{Networked SIS epidemic control.}{Developed deep-RL intervention policies for a networked susceptible-infected-susceptible model using DDPG to modify local interactions and reduce infection spread. Evaluated across multiple graph sizes and configurations, including cooperative multi-agent settings. Published at IEEE CCTA 2025.}
+
+\vspace{15pt}
+
+\datedentry{Research Assistant}{Oct. 2023 -- July 2024}{Intelligent Networks Lab, University of Tehran}{Tehran, Iran}
+Conducted research on deep reinforcement learning for networked decision-making problems.
+
+\researchtopic{Opinion shaping in social networks.}{Studied bot-user intervention in the Stochastic Bounded Confidence Model, including controlled bot positioning and budget-constrained targeted advertising. Used Deep Deterministic Policy Gradient (DDPG) and related deep-RL variants to learn opinion-shaping policies. Available as an arXiv preprint.}
+
+\vspace{15pt}
+
+\newpage
+\cvsection{Research and\\Experience\\(continued)}
+\datedentry{Research Assistant}{May 2021 -- Oct. 2022}{Human and Robot Interaction Laboratory (TaarLab), University of Tehran}{Tehran, Iran}
+Developed computer-vision and deep-learning pipelines for person re-identification, pedestrian attribute recognition and retrieval, human detection, multi-object tracking, and vehicle recognition.
+
+\researchtopic{SIVD vehicle dataset and real-time recognition/tracking.}{Co-developed the public SIVD dataset with 29 Iranian vehicle classes and 36,705 images. Implemented deep vehicle recognition and real-time tracking using YOLOv5 detection and StrongSORT/OSNet-based association; the study reports 99.29\% classification accuracy with ResNet50. Published at ICSPIS 2022.}
+
+\researchtopic{CA-Duke pedestrian attributes and attribute recognition.}{Contributed to image-based annotation of 36,411 DukeMTMC-reID images across 74 pedestrian attributes. Developed a multi-branch attribute-recognition approach layered on a pre-trained person-reidentification baseline and worked on attribute retrieval. The study uses a Separation Index for latent-space separability and reports a 3.31\% F1 improvement from comprehensive image-based annotation.}
+
+\cvsection{Service to\\Professional\\Community}
+\cvsubsection{Peer Review}
+\begin{itemize}
+  \item \textbf{Journal reviewer:} \textit{Neurocomputing}; \textit{IEEE Control Systems Letters}.
+  \item \textbf{Conference reviewer (2023--present):} IEEE Conference on Decision and Control (CDC); International Conference on Intelligent Computing and Next Generation Networks (ICNGN 2023); 4th International Conference on Electrical, Computer, Communications, and Mechatronics Engineering (ICECCME 2024); International Conference on Electrical and Computer Engineering Researches (ICECER 2024); International Conference on Electrical, Computer, and Energy Technologies (ICECET 2024).
+\end{itemize}
+
+\cvsection{Service to\\University}
+\begin{itemize}
+  \item \textbf{Member, ECE Educational Committee}, University of Tehran; participated in efforts to improve the learning experience of current and future ECE students.
+\end{itemize}
+
+\cvsection{University\\Teaching}
+\cvsubsection{Teaching Assistant, University of Tehran}
+\begin{enumerate}
+  \item \textit{Neural Networks and Deep Learning} (graduate course), Spring 2023 and Fall 2023; instructor: Dr. Ahmad Kalhor.
+  \item \textit{Operational Research}, Fall 2023; instructor: Dr. Ramezaney Moghadam.
+  \item \textit{Instrumentation}, Fall 2022 and Spring 2023; instructors: Dr. Nayeri and Dr. Nasiri.
+  \item \textit{Linear Control Systems}, Fall 2022; instructor: Dr. Bahrami.
+  \item \textit{Engineering Mathematics}, Fall 2021; instructor: Dr. Mehdi Tale Masouleh.
+  \item \textit{Electronics I}, Fall 2021; instructor: Dr. Sanaei.
+  \item \textit{Engineering Mathematics}, Spring 2021; instructor: Dr. Taheri.
+  \item \textit{Introduction to Computing Systems and Programming}, Fall 2020 and Fall 2021; instructor: Dr. Moradi.
+  \item \textit{Introduction to Electrical Engineering}, Spring 2021; instructor: Dr. Samimi.
+\end{enumerate}
+
+\cvsection{Research\\Mentoring}
+\begin{itemize}
+  \item Mentored an undergraduate researcher through Purdue University's ASPIRE REU Program, 2026.
+\end{itemize}
+
+\newpage
+\cvsection{Journal\\Publications}
+\begin{enumerate}
+  \item \me, M. Hou, and V. Gupta, ``Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target Identification,'' \textit{IEEE Control Systems Letters}, vol. 10, pp. 811--816, 2026. \href{https://doi.org/10.1109/LCSYS.2026.3703893}{DOI: 10.1109/LCSYS.2026.3703893}. Accepted for presentation at the 65th IEEE Conference on Decision and Control (CDC 2026).
+  \item \me\ and V. Gupta, ``Conformal prediction-based multi-sensor classification,'' \textit{Neurocomputing}, vol. 678, article 133182, 2026. \href{https://doi.org/10.1016/j.neucom.2026.133182}{DOI: 10.1016/j.neucom.2026.133182}.
+\end{enumerate}
+
+\Needspace{6\baselineskip}
+\cvsection{Refereed\\Conference\\Proceedings}
+\begin{enumerate}
+  \item S. Samadi, \me, and P. E. Par\'e, ``Deep Reinforcement Learning for Epidemic Control of a Networked SIS Model,'' in \textit{Proc. IEEE Conference on Control Technology and Applications (CCTA)}, 2025, pp. 145--150. \href{https://doi.org/10.1109/CCTA53793.2025.11151322}{DOI: 10.1109/CCTA53793.2025.11151322}.
+  \item \me, S. A. Alavi, and M. Tale Masouleh, ``SIVD: Dataset of Iranian Vehicles for Real-Time Multi-Camera Video Tracking and Recognition,'' in \textit{Proc. 8th Iranian Conference on Signal Processing and Intelligent Systems (ICSPIS)}, 2022, pp. 1--7. \href{https://doi.org/10.1109/ICSPIS56952.2022.10043932}{DOI: 10.1109/ICSPIS56952.2022.10043932}.
+\end{enumerate}
+
+\cvsection{Manuscripts\\Under Review}
+\begin{enumerate}
+  \item ``Multi-Agent Deferred-Decision Trajectory Optimization with Anytime-Valid Target Retention for Moving Candidates.'' First author. Manuscript under review at \textit{IEEE Robotics and Automation Letters (RA-L)}.
+  \item \me, A. Verma, and V. Gupta, ``Coverage Guarantees for Pseudo-Calibrated Conformal Prediction under Distribution Shift,'' manuscript under review at \textit{IEEE Signal Processing Letters}, 2026. \href{https://arxiv.org/abs/2602.14913}{arXiv:2602.14913}.
+\end{enumerate}
+
+\cvsection{Preprints}
+\begin{enumerate}
+  \item \me, S. Samadi, and H. Kebriaei, ``Towards Opinion Shaping: A Deep Reinforcement Learning Approach in Bot-User Interactions,'' 2024. \href{https://arxiv.org/abs/2409.11426}{arXiv:2409.11426}.
+  \item H. Bodaghi, \me, S. Samiee, S. Ghasemi, M. Tale Masouleh, and A. Kalhor, ``Image-Based and Partially Categorical Annotating Approach for Pedestrian Attribute Recognition,'' SSRN working paper, 2023. \href{https://doi.org/10.2139/ssrn.4373086}{DOI: 10.2139/ssrn.4373086}.
+\end{enumerate}
+
+\cvsection{Manuscripts in\\Preparation}
+\begin{enumerate}[before=\RaggedRight]
+  \item ``Barrier-Continuation Policy Gradient with Learned CBF Action Sets.'' First author. Manuscript in preparation.
+  \item ``Adaptive Intrinsic--Normal Conformal Prediction on an Estimated Response Manifold.'' Manuscript in preparation.
+\end{enumerate}
+
+\newpage
+\cvsection{Research\\Software and\\Datasets}
+\begin{enumerate}
+  \item \textbf{Conformal Prediction-Based Multi-Sensor Classification.} Public code for conformal late fusion with dependent sensor outputs, including synthetic, CIFAR-10, CIFAR-100, and MELD experiments. \href{https://github.com/Farbod-Siahkali/Conformal-prediction-based-multi-sensor-classification}{GitHub repository}.
+  \item \textbf{Source-Tuned Pseudo-Calibration under Distribution Shift.} Public notebooks and numerical results supporting the pseudo-calibration manuscript, with dataset-specific experiments for MNIST, CIFAR-10, and CIFAR-100. \href{https://github.com/Farbod-Siahkali/Source-Tuned-Pseudo-Calibration}{GitHub repository}.
+  \item \textbf{SIVD: Iranian Vehicle Dataset and Recognition/Tracking Code.} Public dataset and implementation resources for 29 vehicle classes and 36,705 images, with deep vehicle recognition and YOLOv5/StrongSORT/OSNet-based tracking components. \href{https://github.com/Farbod-Siahkali/Iranian-Vehicle-Tracking-and-Recognition}{GitHub repository}.
+  \item \textbf{DukeMTMC-reID Labeling GUI.} Graphical annotation tool for DukeMTMC-reID pedestrian attributes, including attribute-labeling workflows and distribution visualization. \href{https://github.com/Farbod-Siahkali/Labeling-GUI-DukeMTMC-ReID}{GitHub repository}.
+  \Needspace{4\baselineskip}\item \textbf{Input Image Optimizer.} PyTorch code for optimizing input images/noise toward specified network targets, used for target-concept visualization on person-reID and AlexNet-based examples. \href{https://github.com/Farbod-Siahkali/Input-Image-Optimizer}{GitHub repository}.
+\end{enumerate}
+
+\Needspace{8\baselineskip}
+\cvsection{Additional\\Projects and\\Coursework}
+\cvsubsection{Independent technical project}
+\textbf{Fashion Recommendation System} (2022): web-scraped online fashion stores and developed a ranking-based recommendation workflow.
+
+\cvsubsection{Selected project-based coursework}
+\begin{itemize}
+  \item \textbf{Deep Generative Models} (Fall 2023): course/project work covered causality and probabilistic graphical models, variational autoencoders, generative adversarial networks, LoRA-based language-model fine-tuning, prompt engineering, and speech synthesis.
+  \item \textbf{Reinforcement Learning} (Fall 2024): studied Markov decision processes, deep reinforcement learning, policy iteration, exploration strategies, and multi-agent reinforcement learning; developed a deep-RL model for control of epidemic spread in networks.
+  \item \textbf{Neural Networks and Deep Learning} (Fall 2022): implemented convolutional networks, YOLOv5-based segmentation/detection tasks, recurrent models (RNN/GRU/LSTM), BERT, BEiT, and several GAN variants including conditional and auxiliary-classifier GANs.
+  \item \textbf{Game Theory} (Spring 2023): studied Nash equilibrium, mixed strategies, Bayesian games, and auctions; implemented an ADP-based reinforcement-learning approach for multi-vehicle decision-making at intersections.
+\end{itemize}
+
+\cvsubsection{Additional relevant coursework}
+Robotics and Mechatronics; Nonlinear Control Systems; Lumped System Theory; Artificial Intelligence; Real Analysis.
+
+\cvsection{Technical\\Skills}
+\begin{itemize}
+  \item \textbf{Programming and engineering:} Python, MATLAB, C/C++, Verilog, \LaTeX.
+  \item \textbf{Machine learning and scientific computing:} PyTorch, TensorFlow, Keras, NumPy, Pandas, SciPy, scikit-learn, Matplotlib, OpenCV.
+  \item \textbf{Development and research tools:} Git/GitHub, Linux, Jupyter Notebook, TensorBoard, Selenium.
+  \item \textbf{Research methods:} conformal prediction, uncertainty quantification, multi-sensor fusion, distribution shift/domain adaptation, multi-agent planning and trajectory optimization, safe reinforcement learning, control barrier functions, manifold estimation and Fr\'echet regression, optimization, computer vision, person re-identification, attribute recognition/retrieval, object detection, and multi-object tracking.
+\end{itemize}
+
+\end{document}

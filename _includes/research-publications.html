@@ -11,7 +11,7 @@
     <p>
       {% if paper.url %}<strong><a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a></strong>{% else %}<strong>{{ paper.title | escape }}</strong>{% endif %}<br>
       {% if show_authors and paper.authors %}{{ paper.authors | escape | replace: 'Farbod Siahkali', '<strong>Farbod Siahkali</strong>' }}.<br>{% endif %}
-      {% if paper.category == 'review' %}Under review at {{ paper.venue | escape }}.{% elsif paper.category == 'preparation' %}In preparation for submission to {{ paper.venue | escape }}.{% else %}{{ paper.venue | escape }}. {{ paper.status | escape }}{% endif %}
+      {% if paper.category == 'review' %}Under review at {{ paper.venue | escape }}.{% elsif paper.category == 'preparation' %}{% if paper.venue != '' %}In preparation for submission to {{ paper.venue | escape }}.{% else %}Manuscript in preparation.{% endif %}{% else %}{{ paper.venue | escape }}. {{ paper.status | escape }}{% endif %}
       {% if paper.first_author %}{% unless show_authors and paper.authors %} First author.{% endunless %}{% endif %}
       {% if paper.note %} {{ paper.note | escape }}{% endif %}
       {% unless include.brief %}<br>{{ paper.detail | escape }}{% endunless %}

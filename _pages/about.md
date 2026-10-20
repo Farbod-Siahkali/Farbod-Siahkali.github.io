@@ -15,13 +15,14 @@ My research connects **machine learning, uncertainty quantification, and control
 
 You can find my papers on [Google Scholar](https://scholar.google.com/citations?user=-99KSTsAAAAJ&hl=en), browse my [academic CV](/cv/), or reach me at [siahkali@purdue.edu](mailto:siahkali@purdue.edu).
 
-[Academic CV (PDF)](/files/Farbod_Siahkali_CV.pdf) · [Research resume (1 page)](/files/Farbod_Siahkali_Resume.pdf)
+[Download my CV (PDF)](/files/Farbod_Siahkali_CV.pdf)
 
 ## Research
 
 - **Reliable multi-sensor perception:** I develop conformal late-fusion methods for dependent sensor outputs. Experiments on synthetic data, CIFAR-10, CIFAR-100, and MELD reduced prediction-set size by 10–25% at fixed coverage.
 - **Planning under uncertainty:** I develop active-sensing and deferred-decision trajectory optimization for target identification and interception, including multi-agent systems with moving candidates.
 - **Learning under distribution shift:** I study pseudo-calibration and coverage guarantees when calibration and deployment distributions differ.
+- **Structured-response prediction:** I study conformal prediction on estimated response manifolds, accounting for both intrinsic and normal uncertainty.
 - **Safe reinforcement learning:** I develop policy-gradient methods with online parameter estimation and control barrier functions for evolving safety constraints.
 
 My work uses **Python, PyTorch, and MATLAB**, together with statistical learning, mixed-integer/conic optimization, and control-theoretic methods.
