@@ -1,0 +1,59 @@
+# Publications and manuscript statuses from the October 2026 resume.
+- title: "Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target Identification"
+  venue: "IEEE Control Systems Letters (L-CSS), 2026"
+  status: "Published. CDC 2026 presentation accepted."
+  first_author: true
+  url: "https://doi.org/10.1109/LCSYS.2026.3703893"
+  detail: "Develops an active-sensing extension of deferred-decision trajectory optimization for robust target identification under sensing uncertainty and resource constraints."
+
+- title: "Conformal Prediction-Based Multi-Sensor Classification"
+  venue: "Neurocomputing, vol. 678, article 133182, 2026"
+  status: "Published."
+  first_author: true
+  url: "https://doi.org/10.1016/j.neucom.2026.133182"
+  detail: "Studies conformal late fusion for dependent sensors. Experiments on synthetic data, CIFAR-10, CIFAR-100, and MELD reduce prediction-set size by 10–25% at fixed coverage."
+
+- title: "Multi-Agent Deferred-Decision Trajectory Optimization with Anytime-Valid Target Retention for Moving Candidates"
+  venue: "IEEE Robotics and Automation Letters (RA-L)"
+  status: "Under review."
+  first_author: true
+  detail: "Combines mixed-integer conic optimization, conformal prediction, sequential candidate rejection, and receding-horizon planning for multi-agent target identification and interception with moving candidates."
+
+- title: "Coverage Guarantees for Pseudo-Calibrated Conformal Prediction under Distribution Shift"
+  venue: "IEEE Signal Processing Letters, 2026; arXiv:2602.14913"
+  status: "Under review."
+  first_author: true
+  url: "https://arxiv.org/abs/2602.14913"
+  detail: "Develops slack-inflated and source-tuned pseudo-calibration algorithms for domain adaptation, with Wasserstein-based coverage bounds under label-conditional covariate shift and experiments on MNIST and CIFAR benchmarks."
+
+- title: "Policy Gradient with Online Parameter Estimation and Evolving CBF Action Sets"
+  venue: "IEEE Control Systems Letters (L-CSS)"
+  status: "In preparation for submission."
+  first_author: true
+  detail: "Develops barrier-continuation policy gradient (BCPG) for safe reinforcement learning with online parameter estimation and control barrier functions (CBFs), evaluated in adaptive cruise control and planar navigation."
+
+- title: "Deep Reinforcement Learning for Epidemic Control of a Networked SIS Model"
+  venue: "IEEE Conference on Control Technology and Applications (CCTA), 2025"
+  status: "Published."
+  url: "https://ieeexplore.ieee.org/document/11151322"
+  detail: "Uses deep deterministic policy gradient (DDPG) to reduce infection spread in a networked susceptible-infected-susceptible (SIS) model."
+
+- title: "Towards Opinion Shaping: A Deep Reinforcement Learning Approach in Bot-User Interactions"
+  venue: "arXiv:2409.11426, 2024"
+  status: "Preprint."
+  first_author: true
+  url: "https://arxiv.org/abs/2409.11426"
+  detail: "Studies bot-user interactions and budget-constrained opinion shaping in social networks using deep reinforcement learning."
+
+- title: "Image-Based and Partially Categorical Annotating Approach for Pedestrian Attribute Recognition"
+  venue: "SSRN, 2022"
+  status: "Preprint."
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4373086"
+  detail: "Introduces the CA-Duke dataset and a two-step learning method with a Separation Index metric. My related work included creating attribute labels for more than 32,000 images."
+
+- title: "SIVD: Dataset of Iranian Vehicles for Real-Time Multi-Camera Video Tracking and Recognition"
+  venue: "IEEE International Conference on Signal Processing and Intelligent Systems (ICSPIS), 2022"
+  status: "Published."
+  first_author: true
+  url: "https://ieeexplore.ieee.org/document/10043932"
+  detail: "Introduces a dataset with over 36,000 images and 29 classes for real-time multi-camera vehicle tracking and recognition."
