@@ -134,6 +134,7 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - documents
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
@@ -143,6 +144,7 @@ exclude:
   - node_modules
   - package.json*
   - Rakefile
+  - scripts
   - README
   - tmp
   - vendor

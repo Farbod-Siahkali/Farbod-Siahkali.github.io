@@ -1,4 +1,4 @@
-# Verified public author lists; manuscript status follows the October 2026 resume.
+# Author-supplied October 2026 CV; RA-L status reconfirmed by the author.
 - title: "Active Sensing and Deferred-Decision Trajectory Optimization for Robust Target Identification"
   venue: "IEEE Control Systems Letters (L-CSS), vol. 10, pp. 811–816, 2026"
   status: "Published."
@@ -41,11 +41,11 @@
   authors: "Farbod Siahkali, Ashwin Verma, Vijay Gupta"
   note: "Public preprint: arXiv:2602.14913 (2026)."
 
-- title: "Policy Gradient with Online Parameter Estimation and Evolving CBF Action Sets"
-  venue: "IEEE Control Systems Letters (L-CSS)"
-  status: "In preparation for submission."
+- title: "Barrier-Continuation Policy Gradient with Learned CBF Action Sets"
+  venue: ""
+  status: "In preparation."
   first_author: true
-  detail: "Develops barrier-continuation policy gradient (BCPG) for safe reinforcement learning with online parameter estimation and control barrier functions (CBFs), evaluated in adaptive cruise control and planar navigation."
+  detail: "Develops safe reinforcement learning with learned control barrier function action sets, online parameter estimation, and barrier-continuation policy gradients; evaluated in adaptive cruise control and planar navigation."
   category: "preparation"
   selected: false
 
@@ -89,3 +89,10 @@
   selected: false
   authors: "Farbod Siahkali, Seyed Amirmahdi Alavi, Mehdi Tale Masouleh"
   source: "https://github.com/Farbod-Siahkali/Iranian-Vehicle-Tracking-and-Recognition/blob/main/README.md"
+
+- title: "Adaptive Intrinsic–Normal Conformal Prediction on an Estimated Response Manifold"
+  venue: ""
+  status: "In preparation."
+  category: "preparation"
+  selected: false
+  detail: "Develops conformal prediction for structured responses on estimated low-dimensional manifolds, accounting for intrinsic and normal errors with fresh recalibration and set-convergence analysis under reconstruction and regression assumptions."

@@ -1,26 +1,13 @@
-# CV and research resume
+# Academic CV
 
-- `files/Farbod_Siahkali_CV.pdf` is the full academic CV.
-- `files/Farbod_Siahkali_Resume.pdf` is the one-page research resume.
+The maintained source is `documents/Academic_CV.tex`, based on the author's supplied margin-heading academic CV.
 
-The academic CV uses the website's `_pages/cv.md` and
-`_data/research_publications.yml`, so public author lists and manuscript statuses
-share the same source as the website. Build it with Python, ReportLab, and Ruby:
+Build with Tectonic:
 
 ```sh
-python3 scripts/build_academic_cv.py
+sh scripts/build_academic_cv.sh
 ```
 
-The generator embeds Times New Roman when available on macOS and otherwise uses
-standard PDF Times fonts. Visually check every page after regeneration.
+The website serves only `files/Farbod_Siahkali_CV.pdf`. Visually review every page after compilation.
 
-Build the separate resume with Tectonic:
-
-```sh
-tectonic documents/Research_Resume.tex --outdir files
-mv files/Research_Resume.pdf files/Farbod_Siahkali_Resume.pdf
-```
-
-The October 2026 versions were checked as three CV pages and one resume page.
-The two nonpublic manuscripts use the author's confirmed first-author attribution;
-their full collaborator lists have not been supplied.
+The internship resume is maintained separately in the parent Resume workspace and is not included in the deployed website. The former public resume PDF and source have been removed from this checkout's published files.
