@@ -13,28 +13,32 @@ I am Farbod Siahkali, a Ph.D. student in Electrical Engineering in the Automatic
 
 My research connects **machine learning, uncertainty quantification, and control**. I am interested in how autonomous systems can combine uncertain observations, decide when to commit to a plan, and learn while respecting safety constraints. My current work spans conformal prediction, multi-sensor fusion, domain adaptation, trajectory optimization, and safe reinforcement learning.
 
-You can find my papers on [Google Scholar](https://scholar.google.com/citations?user=-99KSTsAAAAJ&hl=en), browse my [CV](/cv/), or reach me at [siahkali@purdue.edu](mailto:siahkali@purdue.edu).
+You can find my papers on [Google Scholar](https://scholar.google.com/citations?user=-99KSTsAAAAJ&hl=en), browse my [academic CV](/cv/), or reach me at [siahkali@purdue.edu](mailto:siahkali@purdue.edu).
+
+[Academic CV (PDF)](/files/Farbod_Siahkali_CV.pdf) · [Research resume (1 page)](/files/Farbod_Siahkali_Resume.pdf)
 
 ## Research
 
-- **Reliable multi-sensor perception:** I study conformal prediction and late fusion for dependent sensor outputs, with the goal of producing informative prediction sets at a desired coverage level.
+- **Reliable multi-sensor perception:** I develop conformal late-fusion methods for dependent sensor outputs. Experiments on synthetic data, CIFAR-10, CIFAR-100, and MELD reduced prediction-set size by 10–25% at fixed coverage.
 - **Planning under uncertainty:** I develop active-sensing and deferred-decision trajectory optimization for target identification and interception, including multi-agent systems with moving candidates.
 - **Learning under distribution shift:** I study pseudo-calibration and coverage guarantees when calibration and deployment distributions differ.
 - **Safe reinforcement learning:** I develop policy-gradient methods with online parameter estimation and control barrier functions for evolving safety constraints.
+
+My work uses **Python, PyTorch, and MATLAB**, together with statistical learning, mixed-integer/conic optimization, and control-theoretic methods.
 
 ## Recent Updates
 
 - **2026:** Our active-sensing and deferred-decision trajectory optimization paper is published in **IEEE Control Systems Letters**, with a **CDC 2026 presentation accepted**.
 - **2026:** Our paper on conformal prediction-based multi-sensor classification is published in **Neurocomputing**.
-- **2026:** I am serving as a research mentor in Purdue’s **ASPIRE REU** program.
+- **2026:** Research mentoring in Purdue’s **ASPIRE REU** program.
 
 [More updates](/Updates/)
 
-## Publications & Manuscripts
+## Selected Publications & Preprints
 
-{% include research-publications.html brief=true %}
+{% include research-publications.html brief=true selected=true %}
 
-[Research details and paper links](/publications/)
+[All publications, manuscripts, and research summaries](/publications/)
 
 ## Background
 

@@ -9,4 +9,14 @@ author_profile: true
 
 <p>You can also find my work on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 
-{% include research-publications.html %}
+<h2>Peer-Reviewed Publications</h2>
+{% include research-publications.html category="published" %}
+
+<h2>Manuscripts Under Review</h2>
+{% include research-publications.html category="review" %}
+
+<h2>Preprints</h2>
+{% include research-publications.html category="preprint" %}
+
+<h2>Work in Preparation</h2>
+{% include research-publications.html category="preparation" %}
